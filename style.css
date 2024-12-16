@@ -1,0 +1,32 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.order-scroll{
+
+}
+.creature-picker{
+    width: 80%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vh;
+}
+
+.creature-picker select{
+    width: 50%;
+    text-align: center;
+}
